@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "11.2.1"
+  version: "11.2.2"
 
 package:
   name: croc
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/schollz/croc/archive/v${{ version }}.tar.gz
-  sha256: c3e276f46755f2984cb7958cbe00e01ecf85351d2509d45067b6291abc404d29
+  sha256: 474b25626986649fcfaa2a336a0fdecd29132b525270aeabfb57122cf4256f5a
 
 build:
   number: 0
