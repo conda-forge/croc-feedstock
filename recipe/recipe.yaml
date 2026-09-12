@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "11.2.2"
+  version: "11.5.2"
 
 package:
   name: croc
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/schollz/croc/archive/v${{ version }}.tar.gz
-  sha256: 474b25626986649fcfaa2a336a0fdecd29132b525270aeabfb57122cf4256f5a
+  sha256: 2ceddb504be8b5912f4a3bfd76dc28bb18afda54191f2bebcf5b0fb24e63f774
 
 build:
   number: 0
@@ -21,6 +21,7 @@ requirements:
 
 tests:
   - script:
+      - croc --version
       - croc --help
 
 about:
@@ -35,3 +36,4 @@ about:
 extra:
   recipe-maintainers:
     - danielnachun
+    - XhstormR
